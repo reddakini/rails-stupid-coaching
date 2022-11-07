@@ -1,0 +1,23 @@
+<%#
+<h3> Ask your coach anything: </h3>
+
+<div class="form-group">
+  <form action="/answer" data-turbo="false">
+    <input type="text" name="question">
+    <input type="submit" value="Ask!">
+  </form>
+</div> %>
+
+
+<form action="/answer">
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" id="question-input" placeholder="">
+    <button type="button" id="button-addon2" class="btn btn-primary">Ask!</button>
+  </div>
+</form>
+
+<%#
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+</div> %>
